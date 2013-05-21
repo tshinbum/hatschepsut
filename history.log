@@ -1,0 +1,64 @@
+    1  vi /etc/apt/sources.list
+    2  cd /
+    3  git clone git@github.com:tshinbum/hatschepsut.git
+    4  aptitude
+    5  git clone git@github.com:tshinbum/hatschepsut.git
+    6  git add /etc/apt/sources.list
+    7  pwd
+    8  ls
+    9  mv hatschepsut/.git/ .
+   10  mv hatschepsut/README.md .
+   11  rmdir hatschepsut/
+   12  git add /etc/apt/sources.list
+   13  git commit
+   14  git config --global user.name "Dieter Schoen"
+   15   git config --global user.email tshinbum@gmail.com
+   16  git commit --amend --reset-author
+   17  git push
+   18  vi README.md 
+   19  aptitude
+   20  dpkg --get-selections | sed "s/.*deinstall//" | sed "s/install$//g" > ./pkglist
+   21  git add pkglist 
+   22  git commit -m "added package list"
+   23  vi README.md 
+   24  git add README.md 
+   25  git commit
+   26  git push
+   27  env | grep EDITOR
+   28  which vi
+   29  which vim
+   30  ls -l /usr/bin/vi*
+   31  ps
+   32  vi /root/.bashrc
+   33  git add /root/.bashrc
+   34  $EDITOR
+   35  . /root/.bashrc 
+   36  $EDITOR
+   37  ps -ef | grep sshd
+   38  aptitude
+   39  pwd
+   40  dpkg --get-selections | sed "s/.*deinstall//" | sed "s/install$//g" > ./pkglist
+   41  git add pkglist 
+   42  git commit
+   43  cd
+   44  git push
+   45  pwd
+   46  ls 
+   47  ls -a
+   48  vi /README.md 
+   49  git add /README.md 
+   50  git commit -m updated
+   51  git push
+   52  jackd2
+   53  dpkg -L '*jack*'
+   54  dpkg -l '*jack*'
+   55  dpkg -L jackd2
+   56  jackd
+   57  ls -l /usr/bin/jackd
+   58  ls /etc/security/
+   59  ls /etc/security/limits.d
+   60  vi /etc/security/limits.d/99-realtime.conf
+   61  groupadd realtime
+   62  usermod -a -G realtime root
+   63  cd /
+   64  history > ./history.log
