@@ -13,6 +13,7 @@ ca-certificates
 coreutils					
 cpio						
 cron						
+darkice						
 dash						
 dbus						
 debconf						
@@ -46,6 +47,7 @@ groff-base
 gzip						
 hicolor-icon-theme				
 hostname					
+icecast2					
 ifupdown					
 info						
 initscripts					
@@ -193,6 +195,7 @@ libslang2:amd64
 libsm6:amd64					
 libsndfile1:amd64				
 libsndfile1-dev					
+libspeex1:amd64					
 libsqlite3-0:amd64				
 libss2:amd64					
 libssh2-1:amd64					
@@ -206,8 +209,10 @@ libtext-iconv-perl
 libtext-wrapi18n-perl				
 libthai-data					
 libthai0:amd64					
+libtheora0:amd64				
 libtiff4:amd64					
 libtinfo5:amd64					
+libtwolame0					
 libudev0:amd64					
 libusb-0.1-4:amd64				
 libustr-1.0-1:amd64				
@@ -239,6 +244,7 @@ libxmuu1:amd64
 libxpm4:amd64					
 libxrandr2:amd64				
 libxrender1:amd64				
+libxslt1.1:amd64				
 libxt6:amd64					
 login						
 logrotate					
