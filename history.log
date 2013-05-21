@@ -62,3 +62,40 @@
    62  usermod -a -G realtime root
    63  cd /
    64  history > ./history.log
+   65  git add history.log 
+   66  vi history.log 
+   67  git add /etc/security/limits.d/99-realtime.conf 
+   68  git commit
+   69  git push
+   70  ps -ef | grep ssh
+   71  jackd
+   72  dpkg -L jackd2
+   73  jack_control
+   74  jack_control start
+   75  @realtime   -  rtprio     99
+   76  dbus-launch
+   77  dpkg -L dbus
+   78  dpkg -l '*dbus*'
+   79  ls /usr/sbin/db*
+   80  ls /usr/bin/db*
+   81  man dbus
+   82  service dbus status
+   83  jack_control start
+   84  find / -name dbus-launch
+   85  find / | grep dbus-launch
+   86  find / | grep dbus
+   87  find / | grep "/dbus"
+   88  find / | grep "/dbus-"
+   89  export DISPLAY=:0.0
+   90  jack_control start
+   91  /usr/bin/dbus-launch
+   92  apt-get install dbus-x11
+   93  /usr/bin/dbus-launch
+   94  jack_control start
+   95  unset DISPLAY
+   96  jack_control start
+   97  cd
+   98  history
+   99  cd /
+  100  dpkg --get-selections | sed "s/.*deinstall//" | sed "s/install$//g" > ./pkglist
+  101  history > history.log 

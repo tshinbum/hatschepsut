@@ -16,6 +16,7 @@ cron
 darkice						
 dash						
 dbus						
+dbus-x11					
 debconf						
 debconf-i18n					
 debian-archive-keyring				
