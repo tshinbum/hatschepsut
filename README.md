@@ -9,3 +9,4 @@ System config files for VM which runs supercollider and icecast
 4. clone hatschepsut from github
 5. add supercollider*, vim
 6. dpkg --get-selections | sed "s/.*deinstall//" | sed "s/install$//g" > /pkglist
+7. add icecast and darkice
